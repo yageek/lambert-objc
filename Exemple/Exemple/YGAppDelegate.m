@@ -7,6 +7,7 @@
 //
 
 #import "YGAppDelegate.h"
+#import "CLLocation+Lambert.h"
 
 @implementation YGAppDelegate
 
@@ -21,6 +22,10 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+
+    CLLocation * loc = [[CLLocation alloc] initWithLambertX:1000 andY:1000 inZone:LAMBERT_I];
+
+    NSLog(@"Lon:%f - Lat:%f",loc.coordinate.longitude,loc.coordinate.latitude);
     [self.window makeKeyAndVisible];
     return YES;
 }

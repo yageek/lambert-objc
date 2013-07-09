@@ -7,6 +7,7 @@
 //
 
 #import <CoreLocation/CLLocation.h>
+#import "lambert.h"
 @interface CLLocation (Lambert)
 
 - (id) initWithLambertX:(double)x andY:(double)y inZone:(LambertZone) zone;

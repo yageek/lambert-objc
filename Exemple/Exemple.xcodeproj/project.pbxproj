@@ -19,7 +19,6 @@
 		78220030178C0B68009436B7 /* lambert.c in Sources */ = {isa = PBXBuildFile; fileRef = 78220025178C0B68009436B7 /* lambert.c */; };
 		78220035178C0C01009436B7 /* CLLocation+Lambert.m in Sources */ = {isa = PBXBuildFile; fileRef = 78220034178C0C01009436B7 /* CLLocation+Lambert.m */; };
 		78220037178C0C1B009436B7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78220036178C0C1B009436B7 /* CoreLocation.framework */; };
-		78220039178C1274009436B7 /* lambert-objc.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 78220038178C1274009436B7 /* lambert-objc.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		78220033178C0C01009436B7 /* CLLocation+Lambert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Lambert.h"; sourceTree = "<group>"; };
 		78220034178C0C01009436B7 /* CLLocation+Lambert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Lambert.m"; sourceTree = "<group>"; };
 		78220036178C0C1B009436B7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		78220038178C1274009436B7 /* lambert-objc.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "lambert-objc.podspec"; path = "../lambert-objc.podspec"; sourceTree = "<group>"; };
 		7822FFFC178C0A66009436B7 /* Exemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7822FFFF178C0A66009436B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -114,7 +112,6 @@
 		7822FFF3178C0A66009436B7 = {
 			isa = PBXGroup;
 			children = (
-				78220038178C1274009436B7 /* lambert-objc.podspec */,
 				78220036178C0C1B009436B7 /* CoreLocation.framework */,
 				7822001C178C0B68009436B7 /* Classes */,
 				78220005178C0A66009436B7 /* Exemple */,
@@ -197,7 +194,6 @@
 				78220012178C0A66009436B7 /* Default.png in Resources */,
 				78220014178C0A66009436B7 /* Default@2x.png in Resources */,
 				78220016178C0A66009436B7 /* Default-568h@2x.png in Resources */,
-				78220039178C1274009436B7 /* lambert-objc.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
