@@ -7,7 +7,7 @@
 Pod::Spec.new do |s|
   s.name         = "lambert-objc"
   s.version      = "0.0.1"
-  s.summary      = "CLLocarion category to use lambert coordinates."
+  s.summary      = "CLLocation category to use lambert coordinates."
   s.homepage     = "https://github.com/YaGeek/lambert-objc.git"
   s.license      = 'GPLv2'
   s.author       = { "HEINRICH Yannick" => "yannick.heinrich@gmail.com" }
