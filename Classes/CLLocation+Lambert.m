@@ -17,7 +17,7 @@
 
     lambert_to_wgs84_deg(&org, &dest, zone);
 
-    return [self initWithLatitude:dest.x longitude:dest.y];
+    return [self initWithLatitude:dest.y longitude:dest.x];
 }
 
 @end
