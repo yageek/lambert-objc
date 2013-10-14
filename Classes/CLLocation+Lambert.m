@@ -10,7 +10,7 @@
 
 @implementation CLLocation (Lambert)
 
-- (id) initWithLambertX:(double)x andY:(double)y inZone:(LambertZone) zone
+- (id) initWithLambertX:(double)x andY:(double)y inZone:(YGLambertZone) zone
 {
     YGLambertPoint org = {x,y,0};
     YGLambertPoint dest = {0,0,0};

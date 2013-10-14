@@ -10,6 +10,6 @@
 #import "lambert.h"
 @interface CLLocation (Lambert)
 
-- (id) initWithLambertX:(double)x andY:(double)y inZone:(LambertZone) zone;
+- (id) initWithLambertX:(double)x andY:(double)y inZone:(YGLambertZone) zone;
 
 @end
