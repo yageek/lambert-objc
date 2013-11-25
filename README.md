@@ -5,7 +5,7 @@ Lambert-objc is an Objective-C wrapper for the C lambert library
 # Installation
 ## Cocoapods
 
-Add dependency to your Podfile : `pod 'lambert-objc', '~> 0.0.1'`
+Add dependency to your Podfile : `pod 'lambert-objc', '~> 0.0.2'`
 
 ## Raw files
 * Download `lambert.h` and `lambert.c` from the [lambert Github repository](https://github.com/YaGeek/lambert) and add them to your project
