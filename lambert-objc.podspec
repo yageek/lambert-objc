@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.3"
   s.summary      = "CLLocation category to use lambert coordinates."
   s.homepage     = "https://github.com/YaGeek/lambert-objc.git"
-  s.license      = 'GPLv2'
+  s.license      = 'MIT'
   s.author       = { "HEINRICH Yannick" => "yannick.heinrich@gmail.com" }
   s.source       = { :git => "https://github.com/YaGeek/lambert-objc.git", :tag => "0.0.3"}
   s.source_files = 'Classes', 'Classes/**/*.{h,m,c}'

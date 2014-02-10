@@ -25,8 +25,5 @@ The Lambert category adds a new initializer to the `CLLocation` class :
 	CLLocation * loc = [[CLLocation alloc] initWithLambertX:994272.661 andY:113467.422 inZone:LAMBERT_I];
 ```
 
-#License
-Copyright (c) 2013 Yannick Heinrich - Released under the GPLv2 License.
-
 
 
