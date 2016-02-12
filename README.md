@@ -3,7 +3,7 @@
 Lambert-objc is an Objective-C wrapper for the C lambert library
 
 # Installation
-## Cocoapods
+## CocoaPods
 
 Add dependency to your Podfile : `pod 'lambert-objc', '~> 0.0.3'`
 
