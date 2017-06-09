@@ -1,6 +1,6 @@
-# Description
+# lambert-objc
 
-Lambert-objc is an Objective-C wrapper for the C lambert library
+An Objective-C wrapper for the C lambert library
 
 # Installation
 ## Cocoapods
